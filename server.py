@@ -35,7 +35,8 @@ def record(pid, name, pos, pts, best, track):
 
 @app.route("/")
 def index():
-    return send_from_directory("static", "index.html")
+    
+    return send_from_directory("static", "index3d.html")
 
 
 @app.route("/api/leaderboard")
